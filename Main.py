@@ -15,7 +15,7 @@ class Queue:
     if(self.last!=None):
       self.last.next = new_node
       self.last = new_node
-    else
+    else:
       self.head = new_node
       self.last = new_node
 
